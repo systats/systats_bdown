@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510408798020.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "436610800",
+    "id" : "452F4241",
+    "lastKnownWriteTime" : 1510409093,
+    "last_content_update" : 1510409093793,
+    "path" : "~/Dropbox/projects/systats_bdown/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "12,0",
+        "scrollLine" : "1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

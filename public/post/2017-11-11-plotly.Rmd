@@ -1,0 +1,31 @@
+---
+title: plotly
+author: ~
+date: '2017-11-11'
+slug: plotly
+categories: []
+tags: []
+---
+
+```{r setup, include=F}
+knitr::opts_chunk$set(
+  echo = T, 
+  warning = F, 
+  error = F, 
+  message = F)
+```
+
+
+# Hey hello
+
+```{r, echo = T}
+library(ggplot2)
+library(plotly)
+
+mtcars
+ggplot(mtcars, aes(disp, mpg)) + 
+  geom_point()
+
+ggplotly()
+```
+

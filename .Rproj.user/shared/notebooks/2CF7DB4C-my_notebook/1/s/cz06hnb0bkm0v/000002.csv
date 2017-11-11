@@ -1,0 +1,5 @@
+"0","```r
+load(\"data/ess_workshop.Rdata\")
+ess_ger <- ess %>%
+  filter(country %in% \"DE\")
+```"
