@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "436610800",
+    "hash" : "1178755956",
     "id" : "452F4241",
-    "lastKnownWriteTime" : 1510409093,
-    "last_content_update" : 1510409093793,
+    "lastKnownWriteTime" : 1510412273,
+    "last_content_update" : 1510412273206,
     "path" : "~/Dropbox/projects/systats_bdown/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "12,0",
-        "scrollLine" : "1"
+        "cursorPosition" : "0,38",
+        "scrollLine" : "2"
     },
     "relative_order" : 1,
     "source_on_save" : false,

@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://systats.netlify.com/"
 languageCode = "en-us"
 title = ""
 # Enable comments by entering your Disqus shortname
