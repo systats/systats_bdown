@@ -13,38 +13,11 @@
     
     
     <item>
-      <title>Learn</title>
-      <link>/tags/learn/</link>
-      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
-      
-      <guid>/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
@@ -63,15 +36,6 @@
       <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>/tags/statistics/</link>
-      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     

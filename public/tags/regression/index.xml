@@ -13,12 +13,14 @@
     
     
     <item>
-      <title>Statistics</title>
-      <link>/2017/11/11/statistics/</link>
+      <title>R Squared Simulations</title>
+      <link>/2017/11/11/r2/</link>
       <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/11/11/statistics/</guid>
-      <description>&amp;hellip;. some futher links and Information.</description>
+      <guid>/2017/11/11/r2/</guid>
+      <description>The model performance measure \(R^2\) is often subject to fierce criticism for being prone to its context. This notebook describes some well known criticism of \(R^2\) and tests the deficiencies by simulations. By combining theory, code and accessible graphics I want to show the implications for getting any useful information from \(R^2\).
+Literature The theoretical considerations are partly taken from
+ The Elements of Statistical Learning p.14-16 Urban and Mayerl (2011) set up a poison list of 10 items to be considered, as \(R^2\) is artificially biased by other parameters.</description>
     </item>
     
     <item>
@@ -35,17 +37,6 @@ mpg: 21.4&#34;,&#34;disp: 360.0
 mpg: 18.7&#34;,&#34;disp: 225.0
 mpg: 18.1&#34;,&#34;disp: 360.0
 mpg: 14.3&#34;,&#34;disp: 146.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
   </channel>

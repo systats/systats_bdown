@@ -83,8 +83,6 @@
           
           <a class="main-nav-link" href="/about/">About</a>
           
-          <a class="main-nav-link" href="/2017/11/11/statistics/">Statistics</a>
-          
           <a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a>
           
 
@@ -132,8 +130,6 @@
           
           <td><a class="main-nav-link" href="/about/">About</a></td>
           
-          <td><a class="main-nav-link" href="/2017/11/11/statistics/">Statistics</a></td>
-          
           <td><a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a></td>
           
 
@@ -180,12 +176,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        7
+        3
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          7
+          3
         
         <span>
             Tags
@@ -267,15 +263,12 @@
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
-        <a href="/2017/11/11/statistics/" itemprop="url">
-            <img src="/banners/placeholder.png" class="article-banner">
-        
         </a>
 
         <header class="article-header">
-    <a href="/2017/11/11/statistics/">
+    <a href="/2017/11/11/r2/">
     <h1 class="article-title" itemprop="name">
-        Statistics
+        R Squared Simulations
     </h1>
     </a>
     <div class="article-meta">
@@ -285,10 +278,10 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
             &middot;
-            6
+            2778
             words
             &middot;
-            1
+            14
             minute read
         </div>
         
@@ -299,7 +292,7 @@
                 <i class="fa fa-folder"></i>
                 
                 
-                <a class="article-category-link" href="/categories/statistics">statistics</a>
+                <a class="article-category-link" href="/categories/r">R</a>
                 
                 
             </div>
@@ -313,15 +306,11 @@
                 <i class="fa fa-tags"></i>
                 
                 
-                <a class="article-category-link" href="/tags/statistics">statistics</a>
+                <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
                 &middot;
                 
                 
-                <a class="article-category-link" href="/tags/r">R</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/learn">learn</a>
+                <a class="article-category-link" href="/tags/plot">plot</a>
                 &middot;
                 
                 
@@ -336,21 +325,23 @@
 
         <div class="article-entry" itemprop="articleBody">
             <p>
-                &hellip;. some futher links and Information.
+                The model performance measure \(R^2\) is often subject to fierce criticism for being prone to its context. This notebook describes some well known criticism of \(R^2\) and tests the deficiencies by simulations. By combining theory, code and accessible graphics I want to show the implications for getting any useful information from \(R^2\).
+Literature The theoretical considerations are partly taken from
+ The Elements of Statistical Learning p.14-16 Urban and Mayerl (2011) set up a poison list of 10 items to be considered, as \(R^2\) is artificially biased by other parameters.
             </p>
             <p class="article-more-link">
-                <a href="/2017/11/11/statistics/">
+                <a href="/2017/11/11/r2/">
                     Read more
                 </a>
             </p>
         </div>
         <footer class="article-footer">
-    <a data-url="/2017/11/11/statistics/" data-id="7b5009c52e7a9a5159b64169e0ddd8bd" class="article-share-link">
+    <a data-url="/2017/11/11/r2/" data-id="cbbca36d3a70ad265bfa3d3576fa328e" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="/2017/11/11/statistics/#disqus_thread" class="article-comment-link">
+    <a href="/2017/11/11/r2/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -590,273 +581,6 @@ mpg: 14.3","disp: 146.
         </a>
 
         <header class="article-header">
-    <a href="/2017/11/11/plotly/">
-    <h1 class="article-title" itemprop="name">
-        plotly
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
-            &middot;
-            0
-            words
-            &middot;
-            0
-            minute read
-        </div>
-        
-        
-            
-            
-        
-
-        
-            
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="/2017/11/11/plotly/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="/2017/11/11/plotly/" data-id="e72ac17624365824ecee3cb67e3ec9df" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="/2017/11/11/plotly/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="/2017/05/20/markdown-cheat-sheet/">
-    <h1 class="article-title" itemprop="name">
-        Markdown Cheat Sheet
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-05-20 12:10:51 &#43;0200 CEST" itemprop="datePublished">2017-05-20</time>
-            &middot;
-            421
-            words
-            &middot;
-            2
-            minute read
-        </div>
-        
-        
-            
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="/tags/markdown">markdown</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p>This note demonstrates some of what <a href="http://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
-
-<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself.</em></p>
-
-<p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="/2017/05/20/markdown-cheat-sheet/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="/2017/05/20/markdown-cheat-sheet/" data-id="74a465046a917f5d40c5e9a053394724" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="/2017/05/20/markdown-cheat-sheet/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
     <a href="/2017/05/20/using-the-gallery-shortcode/">
     <h1 class="article-title" itemprop="name">
         Using the gallery shortcode
@@ -980,290 +704,6 @@ mpg: 14.3","disp: 146.
     </div>
 </article>
 
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="/2017/05/20/formulas-with-mathjax/">
-    <h1 class="article-title" itemprop="name">
-        Formulas with MathJax
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-05-20 11:58:06 &#43;0200 CEST" itemprop="datePublished">2017-05-20</time>
-            &middot;
-            84
-            words
-            &middot;
-            1
-            minute read
-        </div>
-        
-        
-            
-            
-        
-
-        
-            
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p>Mathematical equations in form of LaTeX or MathML code can be rendered with the support of <a href="https://www.mathjax.org">MathJax</a>. MathML works out of the box. If you&rsquo;re using LaTeX you need to wrap your equation with <code>$$</code> as shown in the following example:</p>
-
-<p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="/2017/05/20/formulas-with-mathjax/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="/2017/05/20/formulas-with-mathjax/" data-id="632158e79a9ef41ae7a2b7d46d9476ac" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="/2017/05/20/formulas-with-mathjax/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="/2015/07/23/hello-r-markdown/">
-    <h1 class="article-title" itemprop="name">
-        Hello R Markdown
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2015-07-23 21:13:14 -0500 -0500" itemprop="datePublished">2015-07-23</time>
-            &middot;
-            159
-            words
-            &middot;
-            1
-            minute read
-        </div>
-        
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="/categories/r">R</a>
-                
-                
-            </div>
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/plot">plot</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/regression">regression</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
-            </p>
-            <p class="article-more-link">
-                <a href="/2015/07/23/hello-r-markdown/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="/2015/07/23/hello-r-markdown/" data-id="10065deaa3098b0da91b78b48d0efc71" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="/2015/07/23/hello-r-markdown/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
 
 <nav id="page-nav">
 
@@ -1284,9 +724,9 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="/2017/11/11/statistics/" class="thumbnail">
+                    <a href="/2017/11/11/r2/" class="thumbnail">
                     
-                        <span style="background-image:url(/banners/placeholder.png)" alt="" class="thumbnail-image"></span>
+                        <span class="thumbnail-image thumbnail-none"></span>
                     
                     </a>
                 </div>
@@ -1295,13 +735,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                     
                     <p class="item-category">
                         
-                        <a class="article-category-link" href="/categories/statistics">
-                        statistics
+                        <a class="article-category-link" href="/categories/r">
+                        R
                         </a>
                     </p>
                     
                     
-                    <p class="item-title"><a href="/2017/11/11/statistics/" class="title">Statistics</a></p>
+                    <p class="item-title"><a href="/2017/11/11/r2/" class="title">R Squared Simulations</a></p>
                     <p class="item-date">
                         <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
                     </p>
@@ -1330,44 +770,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                     <p class="item-title"><a href="/2017/11/11/plotly/" class="title">plotly</a></p>
                     <p class="item-date">
                         <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="/2017/11/11/plotly/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="/2017/11/11/plotly/" class="title">plotly</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="/2017/05/20/markdown-cheat-sheet/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="/2017/05/20/markdown-cheat-sheet/" class="title">Markdown Cheat Sheet</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-05-20 12:10:51 &#43;0200 CEST" itemprop="datePublished">2017-05-20</time>
                     </p>
                 </div>
             </li>
@@ -1412,14 +814,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 <span class="category-list-count">2</span>
             </li>
             
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="/categories/statistics">
-                    statistics
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -1439,34 +833,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/tags/learn">
-                    learn
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="/tags/markdown">
-                    markdown
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
                 <a class="category-list-link" href="/tags/plot">
                     plot
                 </a>
                 <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="/tags/r">
-                    r
-                </a>
-                <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
@@ -1482,15 +852,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 <a class="category-list-link" href="/tags/regression">
                     regression
                 </a>
-                <span class="category-list-count">3</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="/tags/statistics">
-                    statistics
-                </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
         </ul>
@@ -1510,25 +872,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     <div class="widget tagcloud">
         
         
-        <a href="/tags/learn" style="font-size: 12px;">learn</a>
-        
-        
-        <a href="/tags/markdown" style="font-size: 12px;">markdown</a>
-        
-        
         <a href="/tags/plot" style="font-size: 12px;">plot</a>
-        
-        
-        <a href="/tags/r" style="font-size: 12px;">r</a>
         
         
         <a href="/tags/r-markdown" style="font-size: 12px;">r-markdown</a>
         
         
         <a href="/tags/regression" style="font-size: 12px;">regression</a>
-        
-        
-        <a href="/tags/statistics" style="font-size: 12px;">statistics</a>
         
     </div>
 </div>
