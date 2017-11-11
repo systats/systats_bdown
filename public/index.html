@@ -83,7 +83,9 @@
           
           <a class="main-nav-link" href="/about/">About</a>
           
-          <a class="main-nav-link" href="/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a>
+          <a class="main-nav-link" href="/2017/11/11/statistics/">Statistics</a>
+          
+          <a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a>
           
 
           
@@ -130,7 +132,9 @@
           
           <td><a class="main-nav-link" href="/about/">About</a></td>
           
-          <td><a class="main-nav-link" href="/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a></td>
+          <td><a class="main-nav-link" href="/2017/11/11/statistics/">Statistics</a></td>
+          
+          <td><a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a></td>
           
 
           
@@ -176,12 +180,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        6
+        7
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          8
+          7
         
         <span>
             Tags
@@ -263,6 +267,166 @@
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
+        <a href="/2017/11/11/statistics/" itemprop="url">
+            <img src="/banners/placeholder.png" class="article-banner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="/2017/11/11/statistics/">
+    <h1 class="article-title" itemprop="name">
+        Statistics
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+            &middot;
+            6
+            words
+            &middot;
+            1
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="/categories/statistics">statistics</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="/tags/statistics">statistics</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/r">R</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/learn">learn</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/regression">regression</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                &hellip;. some futher links and Information.
+            </p>
+            <p class="article-more-link">
+                <a href="/2017/11/11/statistics/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="/2017/11/11/statistics/" data-id="7b5009c52e7a9a5159b64169e0ddd8bd" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="/2017/11/11/statistics/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
         </a>
 
         <header class="article-header">
@@ -278,10 +442,170 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
             &middot;
-            902
+            470
             words
             &middot;
-            5
+            3
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="/categories/r">R</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/plot">plot</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/regression">regression</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                Hey hello par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;), col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;), init.angle = -50, border = NA ) library(ggplot2) library(plotly) gg1&lt;-ggplot(mtcars, aes(disp, mpg)) + geom_point() ggplotly(gg1)  {"x":{"data":[{"x":[160,160,108,258,360,225,360,146.7,140.8,167.6,167.6,275.8,275.8,275.8,472,460,440,78.7,75.7,71.1,120.1,318,304,350,400,79,120.3,95.1,351,145,301,121],"y":[21,21,22.8,21.4,18.7,18.1,14.3,24.4,22.8,19.2,17.8,16.4,17.3,15.2,10.4,10.4,14.7,32.4,30.4,33.9,21.5,15.5,15.2,13.3,19.2,27.3,26,30.4,15.8,19.7,15,21.4],"text":["disp: 160.0
+mpg: 21.0","disp: 160.0
+mpg: 21.0","disp: 108.0
+mpg: 22.8","disp: 258.0
+mpg: 21.4","disp: 360.0
+mpg: 18.7","disp: 225.0
+mpg: 18.1","disp: 360.0
+mpg: 14.3","disp: 146.
+            </p>
+            <p class="article-more-link">
+                <a href="/2017/11/11/plotly/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="/2017/11/11/plotly/" data-id="91e5e48f66cda1c79a8a7acf03f6694c" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="/2017/11/11/plotly/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="/2017/11/11/plotly/">
+    <h1 class="article-title" itemprop="name">
+        plotly
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+            &middot;
+            0
+            words
+            &middot;
+            0
             minute read
         </div>
         
@@ -299,7 +623,7 @@
 
         <div class="article-entry" itemprop="articleBody">
             <p>
-                Hey hello library(ggplot2) library(plotly) mtcars ## mpg cyl disp hp drat wt qsec vs am gear carb ## Mazda RX4 21.0 6 160.0 110 3.90 2.620 16.46 0 1 4 4 ## Mazda RX4 Wag 21.0 6 160.0 110 3.90 2.875 17.02 0 1 4 4 ## Datsun 710 22.8 4 108.0 93 3.85 2.320 18.61 1 1 4 1 ## Hornet 4 Drive 21.
+                <p></p>
             </p>
             <p class="article-more-link">
                 <a href="/2017/11/11/plotly/">
@@ -308,7 +632,7 @@
             </p>
         </div>
         <footer class="article-footer">
-    <a data-url="/2017/11/11/plotly/" data-id="91e5e48f66cda1c79a8a7acf03f6694c" class="article-share-link">
+    <a data-url="/2017/11/11/plotly/" data-id="e72ac17624365824ecee3cb67e3ec9df" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
@@ -788,167 +1112,6 @@
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
-        <a href="/2015/10/02/how-to-add-pages-to-the-menu/" itemprop="url">
-            <img src="/banners/placeholder.png" class="article-banner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="/2015/10/02/how-to-add-pages-to-the-menu/">
-    <h1 class="article-title" itemprop="name">
-        How to add pages to the menu
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2015-10-02 21:49:20 &#43;0200 CEST" itemprop="datePublished">2015-10-02</time>
-            &middot;
-            23
-            words
-            &middot;
-            1
-            minute read
-        </div>
-        
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="/categories/programming">programming</a>
-                
-                
-            </div>
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="/tags/golang">golang</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/programming">programming</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/theme">theme</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="/tags/hugo">hugo</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                I&rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &quot;main&quot;  
-            </p>
-            <p class="article-more-link">
-                <a href="/2015/10/02/how-to-add-pages-to-the-menu/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="/2015/10/02/how-to-add-pages-to-the-menu/" data-id="7b5009c52e7a9a5159b64169e0ddd8bd" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="/2015/10/02/how-to-add-pages-to-the-menu/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
         </a>
 
         <header class="article-header">
@@ -1121,6 +1284,58 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="/2017/11/11/statistics/" class="thumbnail">
+                    
+                        <span style="background-image:url(/banners/placeholder.png)" alt="" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/statistics">
+                        statistics
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="/2017/11/11/statistics/" class="title">Statistics</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="/2017/11/11/plotly/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="/2017/11/11/plotly/" class="title">plotly</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="/2017/11/11/plotly/" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
@@ -1176,51 +1391,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 </div>
             </li>
             
-            <li>
-                <div class="item-thumbnail">
-                    <a href="/2017/05/20/formulas-with-mathjax/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="/2017/05/20/formulas-with-mathjax/" class="title">Formulas with MathJax</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-05-20 11:58:06 &#43;0200 CEST" itemprop="datePublished">2017-05-20</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="/2015/10/02/how-to-add-pages-to-the-menu/" class="thumbnail">
-                    
-                        <span style="background-image:url(/banners/placeholder.png)" alt="" class="thumbnail-image"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    <p class="item-category">
-                        
-                        <a class="article-category-link" href="/categories/programming">
-                        programming
-                        </a>
-                    </p>
-                    
-                    
-                    <p class="item-title"><a href="/2015/10/02/how-to-add-pages-to-the-menu/" class="title">How to add pages to the menu</a></p>
-                    <p class="item-date">
-                        <time datetime="2015-10-02 21:49:20 &#43;0200 CEST" itemprop="datePublished">2015-10-02</time>
-                    </p>
-                </div>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -1236,16 +1406,16 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/categories/programming">
-                    programming
+                <a class="category-list-link" href="/categories/r">
+                    r
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/categories/r">
-                    r
+                <a class="category-list-link" href="/categories/statistics">
+                    statistics
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1269,16 +1439,8 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/tags/golang">
-                    golang
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="/tags/hugo">
-                    hugo
+                <a class="category-list-link" href="/tags/learn">
+                    learn
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1296,13 +1458,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 <a class="category-list-link" href="/tags/plot">
                     plot
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/tags/programming">
-                    programming
+                <a class="category-list-link" href="/tags/r">
+                    r
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1312,7 +1474,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 <a class="category-list-link" href="/tags/r-markdown">
                     r-markdown
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -1320,13 +1482,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 <a class="category-list-link" href="/tags/regression">
                     regression
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="/tags/theme">
-                    theme
+                <a class="category-list-link" href="/tags/statistics">
+                    statistics
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1348,10 +1510,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     <div class="widget tagcloud">
         
         
-        <a href="/tags/golang" style="font-size: 12px;">golang</a>
-        
-        
-        <a href="/tags/hugo" style="font-size: 12px;">hugo</a>
+        <a href="/tags/learn" style="font-size: 12px;">learn</a>
         
         
         <a href="/tags/markdown" style="font-size: 12px;">markdown</a>
@@ -1360,7 +1519,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         <a href="/tags/plot" style="font-size: 12px;">plot</a>
         
         
-        <a href="/tags/programming" style="font-size: 12px;">programming</a>
+        <a href="/tags/r" style="font-size: 12px;">r</a>
         
         
         <a href="/tags/r-markdown" style="font-size: 12px;">r-markdown</a>
@@ -1369,7 +1528,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         <a href="/tags/regression" style="font-size: 12px;">regression</a>
         
         
-        <a href="/tags/theme" style="font-size: 12px;">theme</a>
+        <a href="/tags/statistics" style="font-size: 12px;">statistics</a>
         
     </div>
 </div>
