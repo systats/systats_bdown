@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510426262698.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "45DF22E2",
+    "lastKnownWriteTime" : 1509572848,
+    "last_content_update" : 1509572848,
+    "path" : "~/Dropbox/projects/javascript/app.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "5"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

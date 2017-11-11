@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510425501524.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4108895900",
+    "id" : "80CC7DC8",
+    "lastKnownWriteTime" : 1510426143,
+    "last_content_update" : 1510426143583,
+    "path" : "~/Dropbox/projects/systats_bdown/content/post/2017-11-11-shiny.semantic.Rmd",
+    "project_path" : "content/post/2017-11-11-shiny.semantic.Rmd",
+    "properties" : {
+        "cursorPosition" : "19,15",
+        "last_setup_crc32" : "444CB7B2e5f57c6c",
+        "scrollLine" : "13"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

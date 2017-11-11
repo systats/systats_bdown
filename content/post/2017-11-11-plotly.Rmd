@@ -1,11 +1,10 @@
 ---
-title: plotly
+title: Hugo Interactive Charts
 author: ~
 date: '2017-11-11'
-slug: plotly
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
-menu: "main"
+tags: ["R Markdown", "Hugo", "websites"]
+#menu: "main"
 ---
 
 ```{r setup, include=F}
@@ -37,4 +36,28 @@ gg1<-ggplot(mtcars, aes(disp, mpg)) +
 
 ggplotly(gg1)
 ```
+
+```{r}
+load('data/project_macro.Rdata')
+library(sunburstR)
+library(htmltools)
+
+project_macro %>%
+  filter(year %in% 2000) %>% #
+  rename(value = exports) %>%
+  select(region, country, value) %>%
+  mutate(region = stringr::str_replace_all(region, "\\(.*?\\)", "")) %>%
+  mutate(region = stringr::str_replace_all(region, "-", " ")) %>%
+  arrange(region, value) %>%
+  mutate(seqs = paste(region, country, sep = "-")) %>%
+  select(seqs, value) %>%
+  sunburst(count = T, percent = T)
+```
+
+
+
+
+
+
+
 

@@ -1,0 +1,28 @@
+---
+title: "Semantic UI"
+author: ~
+date: '2017-11-11'
+categories: ["R"]
+tags: ["semantic", "ui", "shiny.semantic"]
+---
+
+```{r setup, include=F}
+knitr::opts_chunk$set(
+  echo = T, 
+  warning = F, 
+  error = F, 
+  message = F)
+```
+
+
+# Hey hello
+
+```{r, echo = F}
+library(shiny)
+library(shiny.semantic)
+
+uirender(
+  div(class = "ui raised segment", "Haha")
+)
+```
+

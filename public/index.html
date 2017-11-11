@@ -83,8 +83,6 @@
           
           <a class="main-nav-link" href="/about/">About</a>
           
-          <a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a>
-          
 
           
           
@@ -130,8 +128,6 @@
           
           <td><a class="main-nav-link" href="/about/">About</a></td>
           
-          <td><a class="main-nav-link" href="/2017/11/11/plotly/">plotly</a></td>
-          
 
           
           
@@ -176,12 +172,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        3
+        4
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          3
+          8
         
         <span>
             Tags
@@ -259,6 +255,166 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="/2017/11/11/hugo-interactive-charts/">
+    <h1 class="article-title" itemprop="name">
+        Hugo Interactive Charts
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+            &middot;
+            623
+            words
+            &middot;
+            3
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="/categories/r">R</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/hugo">Hugo</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/websites">websites</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                Hey hello par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;), col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;), init.angle = -50, border = NA ) library(ggplot2) library(plotly) gg1&lt;-ggplot(mtcars, aes(disp, mpg)) + geom_point() ggplotly(gg1)  {"x":{"data":[{"x":[160,160,108,258,360,225,360,146.7,140.8,167.6,167.6,275.8,275.8,275.8,472,460,440,78.7,75.7,71.1,120.1,318,304,350,400,79,120.3,95.1,351,145,301,121],"y":[21,21,22.8,21.4,18.7,18.1,14.3,24.4,22.8,19.2,17.8,16.4,17.3,15.2,10.4,10.4,14.7,32.4,30.4,33.9,21.5,15.5,15.2,13.3,19.2,27.3,26,30.4,15.8,19.7,15,21.4],"text":["disp: 160.0
+mpg: 21.0","disp: 160.0
+mpg: 21.0","disp: 108.0
+mpg: 22.8","disp: 258.0
+mpg: 21.4","disp: 360.0
+mpg: 18.7","disp: 225.0
+mpg: 18.1","disp: 360.0
+mpg: 14.
+            </p>
+            <p class="article-more-link">
+                <a href="/2017/11/11/hugo-interactive-charts/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="/2017/11/11/hugo-interactive-charts/" data-id="91e5e48f66cda1c79a8a7acf03f6694c" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="/2017/11/11/hugo-interactive-charts/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -421,9 +577,9 @@ Literature The theoretical considerations are partly taken from
         </a>
 
         <header class="article-header">
-    <a href="/2017/11/11/plotly/">
+    <a href="/2017/11/11/semantic-ui/">
     <h1 class="article-title" itemprop="name">
-        plotly
+        Semantic UI
     </h1>
     </a>
     <div class="article-meta">
@@ -433,10 +589,10 @@ Literature The theoretical considerations are partly taken from
             <i class="fa fa-calendar"></i>
             <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
             &middot;
-            470
+            3
             words
             &middot;
-            3
+            1
             minute read
         </div>
         
@@ -461,15 +617,15 @@ Literature The theoretical considerations are partly taken from
                 <i class="fa fa-tags"></i>
                 
                 
-                <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
+                <a class="article-category-link" href="/tags/semantic">semantic</a>
                 &middot;
                 
                 
-                <a class="article-category-link" href="/tags/plot">plot</a>
+                <a class="article-category-link" href="/tags/ui">ui</a>
                 &middot;
                 
                 
-                <a class="article-category-link" href="/tags/regression">regression</a>
+                <a class="article-category-link" href="/tags/shiny.semantic">shiny.semantic</a>
                 
                 
             </div>
@@ -480,28 +636,21 @@ Literature The theoretical considerations are partly taken from
 
         <div class="article-entry" itemprop="articleBody">
             <p>
-                Hey hello par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;), col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;), init.angle = -50, border = NA ) library(ggplot2) library(plotly) gg1&lt;-ggplot(mtcars, aes(disp, mpg)) + geom_point() ggplotly(gg1)  {"x":{"data":[{"x":[160,160,108,258,360,225,360,146.7,140.8,167.6,167.6,275.8,275.8,275.8,472,460,440,78.7,75.7,71.1,120.1,318,304,350,400,79,120.3,95.1,351,145,301,121],"y":[21,21,22.8,21.4,18.7,18.1,14.3,24.4,22.8,19.2,17.8,16.4,17.3,15.2,10.4,10.4,14.7,32.4,30.4,33.9,21.5,15.5,15.2,13.3,19.2,27.3,26,30.4,15.8,19.7,15,21.4],"text":["disp: 160.0
-mpg: 21.0","disp: 160.0
-mpg: 21.0","disp: 108.0
-mpg: 22.8","disp: 258.0
-mpg: 21.4","disp: 360.0
-mpg: 18.7","disp: 225.0
-mpg: 18.1","disp: 360.0
-mpg: 14.3","disp: 146.
+                   Hey hello  {"x":{"ui":"Haha"},"evals":[],"jsHooks":[]}  
             </p>
             <p class="article-more-link">
-                <a href="/2017/11/11/plotly/">
+                <a href="/2017/11/11/semantic-ui/">
                     Read more
                 </a>
             </p>
         </div>
         <footer class="article-footer">
-    <a data-url="/2017/11/11/plotly/" data-id="91e5e48f66cda1c79a8a7acf03f6694c" class="article-share-link">
+    <a data-url="/2017/11/11/semantic-ui/" data-id="95e50c5ef57644878a8dd985c887263a" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="/2017/11/11/plotly/#disqus_thread" class="article-comment-link">
+    <a href="/2017/11/11/semantic-ui/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -724,6 +873,32 @@ mpg: 14.3","disp: 146.
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="/2017/11/11/hugo-interactive-charts/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="/2017/11/11/hugo-interactive-charts/" class="title">Hugo Interactive Charts</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="/2017/11/11/r2/" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
@@ -750,7 +925,7 @@ mpg: 14.3","disp: 146.
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="/2017/11/11/plotly/" class="thumbnail">
+                    <a href="/2017/11/11/semantic-ui/" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
                     
@@ -767,7 +942,7 @@ mpg: 14.3","disp: 146.
                     </p>
                     
                     
-                    <p class="item-title"><a href="/2017/11/11/plotly/" class="title">plotly</a></p>
+                    <p class="item-title"><a href="/2017/11/11/semantic-ui/" class="title">Semantic UI</a></p>
                     <p class="item-date">
                         <time datetime="2017-11-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-11</time>
                     </p>
@@ -811,7 +986,7 @@ mpg: 14.3","disp: 146.
                 <a class="category-list-link" href="/categories/r">
                     r
                 </a>
-                <span class="category-list-count">2</span>
+                <span class="category-list-count">3</span>
             </li>
             
         </ul>
@@ -833,10 +1008,18 @@ mpg: 14.3","disp: 146.
             
             <li class="category-list-item">
                 
+                <a class="category-list-link" href="/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
                 <a class="category-list-link" href="/tags/plot">
                     plot
                 </a>
-                <span class="category-list-count">2</span>
+                <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
@@ -852,7 +1035,39 @@ mpg: 14.3","disp: 146.
                 <a class="category-list-link" href="/tags/regression">
                     regression
                 </a>
-                <span class="category-list-count">2</span>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/semantic">
+                    semantic
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/shiny.semantic">
+                    shiny.semantic
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/ui">
+                    ui
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/websites">
+                    websites
+                </a>
+                <span class="category-list-count">1</span>
             </li>
             
         </ul>
@@ -872,6 +1087,9 @@ mpg: 14.3","disp: 146.
     <div class="widget tagcloud">
         
         
+        <a href="/tags/hugo" style="font-size: 12px;">hugo</a>
+        
+        
         <a href="/tags/plot" style="font-size: 12px;">plot</a>
         
         
@@ -879,6 +1097,18 @@ mpg: 14.3","disp: 146.
         
         
         <a href="/tags/regression" style="font-size: 12px;">regression</a>
+        
+        
+        <a href="/tags/semantic" style="font-size: 12px;">semantic</a>
+        
+        
+        <a href="/tags/shiny.semantic" style="font-size: 12px;">shiny.semantic</a>
+        
+        
+        <a href="/tags/ui" style="font-size: 12px;">ui</a>
+        
+        
+        <a href="/tags/websites" style="font-size: 12px;">websites</a>
         
     </div>
 </div>
