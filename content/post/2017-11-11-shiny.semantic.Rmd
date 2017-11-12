@@ -4,6 +4,8 @@ author: ~
 date: '2017-11-11'
 categories: ["R"]
 tags: ["semantic", "ui", "shiny.semantic"]
+disable_profile: true
+disable_widgets: true
 ---
 
 ```{r setup, include=F}
@@ -15,7 +17,6 @@ knitr::opts_chunk$set(
 ```
 
 
-# Hey hello
 
 ```{r high, echo = F}
 library(shiny)

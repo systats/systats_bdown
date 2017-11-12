@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510412777991.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "25CBEEF2",
+    "lastKnownWriteTime" : 1510434905,
+    "last_content_update" : 1510434905880,
+    "path" : "~/Dropbox/projects/systats_bdown/content/post/2017-11-11-plotly.Rmd",
+    "project_path" : "content/post/2017-11-11-plotly.Rmd",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

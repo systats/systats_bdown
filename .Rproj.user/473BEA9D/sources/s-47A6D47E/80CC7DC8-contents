@@ -1,0 +1,85 @@
+---
+title: "Semantic UI"
+author: ~
+date: '2017-11-11'
+categories: ["R"]
+tags: ["semantic", "ui", "shiny.semantic"]
+disable_profile: true
+disable_widgets: true
+banner: "banner/place"
+---
+
+```{r setup, include=F}
+knitr::opts_chunk$set(
+  echo = T, 
+  warning = F, 
+  error = F, 
+  message = F)
+```
+
+
+
+```{r high, echo = F}
+library(shiny)
+library(shiny.semantic)
+library(highcharter)
+library(dplyr)
+
+dat <- data.frame(
+  items = c("IQ", "EDU", "Inter", "Income"),
+  value = c(90, 60, 80, 40),
+  color = 1:4
+)
+
+library(purrr) # map function to make grouped categories argument
+library(dplyr) # for select function 
+data(mpg, package = "ggplot2")
+mpgg <- mpg %>% 
+  filter(class %in% c("suv", "compact", "midsize")) %>% 
+  group_by(class, manufacturer) %>% 
+  summarize(count = n())
+categories_grouped <- mpgg %>% 
+  group_by(name = class) %>% 
+  do(categories = .$manufacturer) %>% 
+  list_parse()
+```
+
+```{r, echo = F}
+shiny.semantic::semanticPage(
+  div(class="ui two column grid",
+    div(class="column",
+      div(class="raised card",
+        div(
+          highchart() %>% 
+            hc_xAxis(categories = categories_grouped) %>% 
+            hc_add_series(data = mpgg, type = "bar", 
+                        hcaes(y = count, color = manufacturer), 
+                        showInLegend = FALSE)
+        ),
+        div(class="content",
+          div(class="header", "Matt Giampietro")
+        )
+      )
+    ),
+    div(class="column",
+      div(class="raised card",
+        div(
+          dat %>%
+            hchart("pie", innerSize= '40%', showInLegend= F,
+               hcaes(x = items, y = value, color = -color), height = 100) %>%
+            hc_add_theme(hc_theme_null())
+        ),
+        div(class="content",
+          div(class="header", "Matt Giampietro")
+        )
+      )
+    )
+  )
+)
+```
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+---
+title: "Statistics"
+author: ~
+date: '2017-11-12'
+slug: "Statistische Modellierung"
+categories: []
+tags: ["statistics", "R", "machine learning"]
+menu: "main"
+disable_profile: false
+disable_widgets: true
+banner: "http://www.unc.edu/~nielsen/soci709/m1/m1005.gif"
+---
+
+* Zusammenfassung. 
+* auf Deutsch.
+* Teilweise mit Zitationen versehen.
+
+<center>
+```{r, echo = F}
+# http://kenwheeler.github.io/slick/
+# devtools::install_github('metrumresearchgroup/slickR')
+library(htmlwidgets)
+library(slickR)
+library(stringr)
+pics <- c("images/car.png", "images/cartoon_box2.png")
+slickR(obj = pics, slideId = 'ggthemes', width='95%', height = 300)
+```
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
