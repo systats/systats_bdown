@@ -5,6 +5,8 @@ date: '2017-11-11'
 categories: ["R"]
 tags: ["R Markdown", "Hugo", "websites"]
 #menu: "main"
+disable_profile: false
+disable_widgets: true
 ---
 
 ```{r setup, include=F}

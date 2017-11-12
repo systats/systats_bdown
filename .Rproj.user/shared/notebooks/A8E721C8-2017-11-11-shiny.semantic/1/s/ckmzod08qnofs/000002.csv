@@ -1,7 +1,0 @@
-"0","library(shiny.semantic)"
-"0","uirender("
-"0","  div(class = ""ui raised segment"", div(class = ""ui relaxed divided list"", c(""Apples"", "
-"0","    ""Pears"", ""Oranges"") %>% purrr::map(~div(class = ""item"", uiicon(""large github middle aligned""), "
-"0","    div(class = ""content"", a(class = ""header"", ""Hello""), div(class = ""description"", "
-"0","        .))))))"
-"0",")"

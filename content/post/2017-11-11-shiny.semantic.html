@@ -6,14 +6,71 @@ categories: ["R"]
 tags: ["semantic", "ui", "shiny.semantic"]
 ---
 
+<link href="/rmarkdown-libs/semantic-ui/semantic.min.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/semantic-ui/semantic.min.js"></script>
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
-<link href="/rmarkdown-libs/Semantic UI/semantic.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/Semantic UI/semantic.js"></script>
-<script src="/rmarkdown-libs/uirender-binding/uirender.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<script src="/rmarkdown-libs/proj4js/proj4.js"></script>
+<link href="/rmarkdown-libs/highcharts/css/motion.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/highcharts/highstock.js"></script>
+<script src="/rmarkdown-libs/highcharts/highcharts-3d.js"></script>
+<script src="/rmarkdown-libs/highcharts/highcharts-more.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/annotations.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/broken-axis.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/data.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/drilldown.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/exporting.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/funnel.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/heatmap.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/map.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/no-data-to-display.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/offline-exporting.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/solid-gauge.js"></script>
+<script src="/rmarkdown-libs/highcharts/modules/treemap.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/annotations.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/draggable-legend.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/draggable-points.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/export-csv.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/grouped-categories.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/motion.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/pattern-fill-v2.js"></script>
+<script src="/rmarkdown-libs/highcharts/plugins/tooltip-delay.js"></script>
+<script src="/rmarkdown-libs/highcharts/custom/reset.js"></script>
+<script src="/rmarkdown-libs/highcharts/custom/symbols-extra.js"></script>
+<script src="/rmarkdown-libs/highcharts/custom/text-symbols.js"></script>
+<link href="/rmarkdown-libs/fontawesome/font-awesome.min.css" rel="stylesheet" />
+<link href="/rmarkdown-libs/htmlwdgtgrid/htmlwdgtgrid.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/highchart-binding/highchart.js"></script>
 
 
 <div id="hey-hello" class="section level1">
 <h1>Hey hello</h1>
-<div id="htmlwidget-1" style="width:672px;height:480px;" class="uirender html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"ui":"<div class=\"ui raised segment\">Haha<\/div>"},"evals":[],"jsHooks":[]}</script>
+<body style="min-height: 611px;">
+<div class="wrapper">
+<div class="ui two column grid">
+<div class="column">
+<div class="raised card">
+<div>
+<div id="htmlwidget-1" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10},"xAxis":{"categories":[{"name":"compact","categories":["audi","nissan","subaru","toyota","volkswagen"]},{"name":"midsize","categories":["audi","chevrolet","hyundai","nissan","pontiac","toyota","volkswagen"]},{"name":"suv","categories":["chevrolet","dodge","ford","jeep","land rover","lincoln","mercury","nissan","subaru","toyota"]}]},"series":[{"group":"group","data":[{"class":"compact","manufacturer":"audi","count":15,"y":15,"color":"#440154","colorv":"audi"},{"class":"compact","manufacturer":"nissan","count":2,"y":2,"color":"#324870","colorv":"nissan"},{"class":"compact","manufacturer":"subaru","count":4,"y":4,"color":"#21908C","colorv":"subaru"},{"class":"compact","manufacturer":"toyota","count":12,"y":12,"color":"#8FBB58","colorv":"toyota"},{"class":"compact","manufacturer":"volkswagen","count":14,"y":14,"color":"#FDE725","colorv":"volkswagen"},{"class":"midsize","manufacturer":"audi","count":3,"y":3,"color":"#440154","colorv":"audi"},{"class":"midsize","manufacturer":"chevrolet","count":5,"y":5,"color":"#383066","colorv":"chevrolet"},{"class":"midsize","manufacturer":"hyundai","count":7,"y":7,"color":"#2C6079","colorv":"hyundai"},{"class":"midsize","manufacturer":"nissan","count":7,"y":7,"color":"#21908C","colorv":"nissan"},{"class":"midsize","manufacturer":"pontiac","count":5,"y":5,"color":"#6AAD69","colorv":"pontiac"},{"class":"midsize","manufacturer":"toyota","count":7,"y":7,"color":"#B3CA47","colorv":"toyota"},{"class":"midsize","manufacturer":"volkswagen","count":7,"y":7,"color":"#FDE725","colorv":"volkswagen"},{"class":"suv","manufacturer":"chevrolet","count":9,"y":9,"color":"#440154","colorv":"chevrolet"},{"class":"suv","manufacturer":"dodge","count":7,"y":7,"color":"#3C2060","colorv":"dodge"},{"class":"suv","manufacturer":"ford","count":9,"y":9,"color":"#34406C","colorv":"ford"},{"class":"suv","manufacturer":"jeep","count":8,"y":8,"color":"#2C6079","colorv":"jeep"},{"class":"suv","manufacturer":"land rover","count":4,"y":4,"color":"#248085","colorv":"land rover"},{"class":"suv","manufacturer":"lincoln","count":3,"y":3,"color":"#399980","colorv":"lincoln"},{"class":"suv","manufacturer":"mercury","count":4,"y":4,"color":"#6AAD69","colorv":"mercury"},{"class":"suv","manufacturer":"nissan","count":4,"y":4,"color":"#9BC052","colorv":"nissan"},{"class":"suv","manufacturer":"subaru","count":6,"y":6,"color":"#CCD33B","colorv":"subaru"},{"class":"suv","manufacturer":"toyota","count":8,"y":8,"color":"#FDE725","colorv":"toyota"}],"type":"bar","showInLegend":false}]},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="content">
+<div class="header">Matt Giampietro</div>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="raised card">
+<div>
+<div id="htmlwidget-2" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":"value"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":false,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10},"series":[{"group":"group","data":[{"items":"IQ","value":90,"color":"#FDE725","y":90,"name":"IQ","colorv":-1},{"items":"EDU","value":60,"color":"#6AAD69","y":60,"name":"EDU","colorv":-2},{"items":"Inter","value":80,"color":"#2C6079","y":80,"name":"Inter","colorv":-3},{"items":"Income","value":40,"color":"#440154","y":40,"name":"Income","colorv":-4}],"type":"pie","innerSize":"40%","showInLegend":false,"height":100}],"xAxis":{"type":"category","title":{"text":"items"},"categories":null}},"theme":{"chart":{"backgroundColor":"transparent"},"plotOptions":{"line":{"marker":{"enabled":false}}},"legend":{"enabled":true,"align":"right","verticalAlign":"bottom"},"credits":{"enabled":false},"xAxis":{"visible":false},"yAxis":{"visible":false}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="content">
+<div class="header">Matt Giampietro</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
 </div>
