@@ -6,6 +6,7 @@ categories: ["R"]
 tags: ["semantic", "ui", "shiny.semantic"]
 disable_profile: true
 disable_widgets: true
+banner: "banner/place"
 ---
 
 ```{r setup, include=F}

@@ -8,15 +8,13 @@ tags: ["statistics", "R", "machine learning"]
 menu: "main"
 disable_profile: false
 disable_widgets: true
-banner: "http://www.unc.edu/~nielsen/soci709/m1/m1005.gif"
+#banner: "http://www.unc.edu/~nielsen/soci709/m1/m1005.gif"
 ---
+<meta http-equiv="refresh" content="0; URL='https://systats.github.io/linear_model/'" />
 
-* Zusammenfassung. 
-* auf Deutsch.
-* Teilweise mit Zitationen versehen.
 
 <center>
-```{r, echo = F}
+```{r, echo = F, eval = F}
 # http://kenwheeler.github.io/slick/
 # devtools::install_github('metrumresearchgroup/slickR')
 library(htmlwidgets)
