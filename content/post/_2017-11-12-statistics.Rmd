@@ -10,7 +10,6 @@ disable_profile: false
 disable_widgets: true
 #banner: "http://www.unc.edu/~nielsen/soci709/m1/m1005.gif"
 ---
-<meta http-equiv="refresh" content="0; URL='https://systats.github.io/linear_model/'" />
 
 
 <center>
