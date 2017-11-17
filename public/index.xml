@@ -74,7 +74,8 @@ Literature The theoretical considerations are partly taken from
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/shiny/</guid>
-      <description>This will be a collection of shiny apps &amp;hellip;</description>
+      <description>Soccer Analytics This is a simple dashboard of German Soccer Matches since 2002 of the 1. Bundesliga. A live instance can be accessed here.
+Linear Regression Learn the concept of linear regression in a interactive way. You can access the app here.</description>
     </item>
     
   </channel>

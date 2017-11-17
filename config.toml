@@ -48,10 +48,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[params.menu]]
     before = true
     label  = "Home"
-    link   = "/"
+    link   = "home/"
     
 [[params.menu]]
-    before = true
+    before = false
     label  = "Blog"
     link   = "post/"
 
